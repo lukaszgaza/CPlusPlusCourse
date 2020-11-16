@@ -17,17 +17,23 @@ Dice dice = Dice::Two;
 switch(dice) {
     case Dice::One:
         printf("One");
+        break;
     case Dice::Two:
         printf("Two");
+        break;
     case Dice::Three:
         printf("Three");
+        break;
     case Dice::Four:
         printf("Four");
+        break;
     case Dice::Five:
         printf("Five");
+        break;
     case Dice::Six:
         printf("Six");
-    case default:
+        break;
+    default:
         printf("Impossible");
 }
 ```
@@ -80,7 +86,7 @@ private:
     double y;
 };
 
-Point p; // inicjalizacja - składowe otrzymują losowe wartości
+Point p;
 ```
 
 #### Konstruktory
